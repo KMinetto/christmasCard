@@ -6,5 +6,7 @@
             "email": "killian.minetto@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    }
 }
