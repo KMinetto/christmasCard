@@ -26,8 +26,9 @@ if ($_SERVER['SERVER_NAME'] === 'localhost') {
 else {
     $email = htmlspecialchars($_POST['email1']);
     $to      = $_POST['email2'];
-    $subject = htmlspecialchars($_POST['subjectMail']);
-    $message = htmlspecialchars($_POST['textMail']);
+    $subject = htmlspecialchars($_POST['title']);
+    $message = "Suis ce lien pour trouver ton cadeau : <a>https://kilianm.promo-45.codeur.online/christmasCard/wishCard.html?
+        nom=" . $_POST['firstName'] . "title=" . $_POST['title'] . "message=" . $_POST['message'] . "</a>";
     $headers = "From: {$email}" . "\r\n" .
         "Reply-To: {$email}" . "\r\n" .
         'X-Mailer: PHP/' . PHP_VERSION;

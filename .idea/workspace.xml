@@ -4,7 +4,8 @@
     <list default="true" id="22ca51c0-d76b-4d19-9fb9-677588b66f62" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/assets/images/img/bgCard.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/images/img/bgForm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/php/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/svg/bookSvg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/svg/couronne.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/scss/snow.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/scss/snow.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/scss/snow.scss" afterDir="false" />
@@ -12,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -86,11 +89,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/svg" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\ChristmasCard\christmasCard\assets\images\svg" />
+      <recent name="C:\wamp64\www\ChristmasCard\christmasCard\assets\images\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607694436400</updated>
-      <workItem from="1607694437873" duration="1042000" />
+      <workItem from="1607694437873" duration="2240000" />
     </task>
     <task id="LOCAL-00001" summary="yo">
       <created>1607694696804</created>
