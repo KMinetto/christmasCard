@@ -4,14 +4,11 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-content: center;
-
-  &__content {
+  align-content: center; }
+  .hero__content {
     position: relative;
     align-self: center;
-    padding: 3rem 0;
-  }
-}
+    padding: 3rem 0; }
 
 .snow {
   position: absolute;
@@ -20,29 +17,25 @@
   height: 100%;
   width: 100%;
   top: 0;
-  left: 0;
-}
+  left: 0; }
 
 .snow .svg {
   position: absolute;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 #snow-top-layer {
   will-change: transform;
   transform: translateY(-768px);
-  animation: fall 16.5s infinite linear;
-}
+  animation: fall 16.5s infinite linear; }
 
 #snow-bottom-layer {
   will-change: transform;
   transform: translateY(-768px);
-  animation: fall 32s infinite linear;
-}
+  animation: fall 32s infinite linear; }
 
 @keyframes fall {
   100% {
-    transform: translateY(0);
-  }
-}
+    transform: translateY(0); } }
+
+/*# sourceMappingURL=snow.css.map */
