@@ -1,0 +1,10 @@
+{
+    "name": "vendor/christmascard",
+    "authors": [
+        {
+            "name": "Kilian MINETTO",
+            "email": "killian.minetto@gmail.com"
+        }
+    ],
+    "require": {}
+}
