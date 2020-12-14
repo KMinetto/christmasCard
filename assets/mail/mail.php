@@ -17,7 +17,7 @@ if ($_SERVER['SERVER_NAME'] === 'localhost') {
         ->setFrom([$_POST['email1']])
         ->setTo([$_POST['email2']])
         ->setBody("{$_POST['message']}, voici le lien de la carte :
-http://localhost:63342/christmasCard/wishCard.html")
+https://kilianm.promo-45.codeur.online/christmasCard/wishCard.html")
     ;
 
 // Send the message
