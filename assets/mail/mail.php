@@ -27,7 +27,8 @@ https://kilianm.promo-45.codeur.online/christmasCard/wishCard.html")
     $email2 = htmlspecialchars($_POST['email2']);
     $to = $email2;
     $title = htmlspecialchars($_POST['title']);
-    $content = htmlspecialchars($_POST['message']);
+    $content = htmlspecialchars($_POST['message'] . ", voici le lien de la carte :
+https://kilianm.promo-45.codeur.online/christmasCard/wishCard.html");
     $headers = "From: {$email1}" . "\r\n" .
         "Reply-To: {$email2}" . "\r\n" .
         'X-Mailer: PHP/' . PHPVERSION();
