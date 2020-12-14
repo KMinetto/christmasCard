@@ -28,7 +28,7 @@ form.addEventListener('submit', (e) => {
 
     const formData = new FormData(form);
 
-    fetch('assets/php/mail.php', {
+    fetch('assets/mail/mail.php', {
         method: 'POST',
         body: formData
     })
