@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ca51c0-d76b-4d19-9fb9-677588b66f62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/img/bgCard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/img/bgForm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/svg/bookSvg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/svg/couronne.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/snow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/snow.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scss/snow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/christmasCard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/christmasCard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/php/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/wishCard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607694436400</updated>
-      <workItem from="1607694437873" duration="2240000" />
+      <workItem from="1607694437873" duration="3680000" />
     </task>
     <task id="LOCAL-00001" summary="yo">
       <created>1607694696804</created>
@@ -124,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607694696804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add wishcard">
+      <created>1607696971748</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607696971748</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="yo" />
-    <option name="LAST_COMMIT_MESSAGE" value="yo" />
+    <MESSAGE value="add wishcard" />
+    <option name="LAST_COMMIT_MESSAGE" value="add wishcard" />
   </component>
 </project>
