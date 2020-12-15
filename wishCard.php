@@ -88,8 +88,7 @@
     </div>
     <div class="component text-center">
         <h1 class="mt-3">Un message de la part de
-            <span id="fname"><?= !empty(htmlspecialchars($_GET['fname'])) ? $_GET['fname'] : "" ?></span>
-            <span id="lname"><?= !empty(htmlspecialchars($_GET['lname'])) ? $_GET['lname'] : "" ?></span>
+            <span id="fname"><?= !empty(htmlspecialchars($_GET['fname'])) ? $_GET['fname']  . " " . $_GET['lname'] : "" ?></span>
         </h1>
         <ul class="align">
             <li>
