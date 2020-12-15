@@ -29,7 +29,7 @@ http://localhost/ChristmasCard/christmasCard/wishCard.php?fname=". $_POST['first
     $title = htmlspecialchars($_POST['title']);
     $content = htmlspecialchars("{$_POST['message']}, voici le lien de la carte :
 https://kilianm.promo-45.codeur.online/christmasCard/wishCard.php?fname=". $_POST['firstName'] . "&lname=" . $_POST['lastName'] .
-        "&titleContent=" . $_POST['titleContent'] . "&messageContent=" . $_POST['messageContent']);
+        "&titleContent=" . $_POST['title'] . "&messageContent=" . $_POST['message']);
     $headers = "From: {$email1}" . "\r\n" .
         "Reply-To: {$email2}" . "\r\n" .
         'X-Mailer: PHP/' . PHPVERSION();
