@@ -86,14 +86,16 @@
             </g>
         </svg>
     </div>
-    <div class="component">
-        <h1 class="mt-3">Un message de la part de insérer le nom d'une personne random</h1>
+    <div class="component text-center">
+        <h1 class="mt-3">Un message de la part de
+            <span id="fname"><?= !empty(htmlspecialchars($_GET['fname'])) ? $_GET['fname'] : "" ?></span>
+            <span id="lname"><?= !empty(htmlspecialchars($_GET['lname'])) ? $_GET['lname'] : "" ?></span>
+        </h1>
         <ul class="align">
             <li>
                 <figure class='book'>
 
                     <!-- Front -->
-
                     <ul class='hardcover_front'>
                         <li>
                             <div class="coverDesign red">
@@ -115,8 +117,8 @@
 
                     <ul class='hardcover_back'>
                         <li>
-                            <h4 id="title">Joyeuses fêtes</h4>
-                            <p id="userMessage">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi aperiam consectetur corporis, cum cupiditate dolore eos, impedit iste maxime nam nesciunt omnis, optio quaerat quam quod sed voluptas? Officia, qui?</p>
+                            <h4 id="titleContent"><?= !empty(htmlspecialchars($_GET['title'])) ? $_GET['title'] : "" ?></h4>
+                            <p id="userMessage"><?= !empty(htmlspecialchars($_GET['message'])) ? $_GET['message'] : "" ?></p>
                         </li>
                     </ul>
                     <ul class='book_spine'>

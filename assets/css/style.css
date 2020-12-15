@@ -769,7 +769,7 @@ figcaption p {
     left: -65%;
 }
 
-#title {
+#title, #titleContent {
     font-family: "Clicker Script", cursive;
     font-weight: bold;
     margin-top: 3rem;

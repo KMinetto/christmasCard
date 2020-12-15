@@ -17,8 +17,8 @@ if ($_SERVER['SERVER_NAME'] === 'localhost') {
         ->setFrom([$_POST['email1']])
         ->setTo([$_POST['email2']])
         ->setBody("{$_POST['message']}, voici le lien de la carte :
-https://kilianm.promo-45.codeur.online/christmasCard/wishCard.html")
-    ;
+http://localhost/ChristmasCard/christmasCard/wishCard.php?fname=". $_POST['firstName'] . "&lname=" . $_POST['lastName'] .
+            "&title=" . $_POST['title'] . "&message=" . $_POST['message']);
 
 // Send the message
     $result = $mailer->send($message);
@@ -28,7 +28,7 @@ https://kilianm.promo-45.codeur.online/christmasCard/wishCard.html")
     $to = $email2;
     $title = htmlspecialchars($_POST['title']);
     $content = htmlspecialchars("{$_POST['message']}, voici le lien de la carte :
-https://kilianm.promo-45.codeur.online/christmasCard/wishCard.html");
+https://kilianm.promo-45.codeur.online/christmasCard/wishCard.php");
     $headers = "From: {$email1}" . "\r\n" .
         "Reply-To: {$email2}" . "\r\n" .
         'X-Mailer: PHP/' . PHPVERSION();

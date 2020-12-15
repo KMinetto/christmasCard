@@ -1,4 +1,5 @@
 // JavaScript for disabling form submissions if there are invalid fields
+const title = document.getElementById('titleContent');
 
 (function () {
     'use strict';
@@ -28,7 +29,7 @@ form.addEventListener('submit', (e) => {
 
     const formData = new FormData(form);
 
-    fetch('assets/mail/mail.php', {
+    fetch('assets/php/mail.php', {
         method: 'POST',
         body: formData
     })
@@ -37,4 +38,13 @@ form.addEventListener('submit', (e) => {
         .catch(error => {
             console.error(error);
         });
-})
+
+    fetch('assets/php/cardContent', {
+        method: 'POST',
+        body: formData
+    })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+        })
+});
