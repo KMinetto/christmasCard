@@ -26,10 +26,10 @@ http://localhost/ChristmasCard/christmasCard/wishCard.php?fname=". $_POST['first
     $email1 = htmlspecialchars($_POST['email1']);
     $email2 = htmlspecialchars($_POST['email2']);
     $to = $email2;
-    $title = htmlspecialchars($_POST['title']);
-    $content = htmlspecialchars("{$_POST['message']}, voici le lien de la carte :
+    $title = $_POST['title'];
+    $content = "{$_POST['message']}, voici le lien de la carte :
 https://kilianm.promo-45.codeur.online/christmasCard/wishCard.php?fname=". $_POST['firstName'] . "&lname=" . $_POST['lastName'] .
-        "&titleContent=Je%20te%20souhaites%20de%20merveilleuses%20fêtes&messageContent=" . $_POST['message']);
+        "&titleContent=Je%20te%20souhaites%20de%20merveilleuses%20fêtes&messageContent=" . $_POST['message'];
     $headers = "From: {$email1}" . "\r\n" .
         "Reply-To: {$email2}" . "\r\n" .
         'X-Mailer: PHP/' . PHPVERSION();
