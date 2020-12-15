@@ -117,7 +117,7 @@
                     <ul class='hardcover_back'>
                         <li>
                             <h4 id="titleContent"><?= !empty(htmlspecialchars($_GET['titleContent'])) ? $_GET['titleContent'] : "" ?></h4>
-                            <p id="userMessage"><?= !empty(htmlspecialchars($_POST['message'])) ? $_POST['message'] : "" ?></p>
+                            <p id="userMessage"><?= !empty(htmlspecialchars($_GET['message'])) ? $_GET['message'] : "" ?></p>
                         </li>
                     </ul>
                     <ul class='book_spine'>
