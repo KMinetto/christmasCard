@@ -39,12 +39,16 @@ form.addEventListener('submit', (e) => {
             console.error(error);
         });
 
-    fetch('assets/php/cardContent', {
+    fetch('wishCard.php', {
         method: 'POST',
         body: formData
     })
-        .then(res => res.json())
+        .then(res => {
+
+        })
         .then(data => {
-            console.log(data)
+        })
+        .catch(error => {
+            console.error(error);
         })
 });
